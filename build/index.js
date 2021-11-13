@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var LinkedList_1 = require("./LinkedList");
+// Interfaces - contract between classes - very different objects need to work together - loose coupling
+// vs
+// Inheritance=abstract classes - sets up a contract between different classes - definition for an object - strongly couples
+// //
 // const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
 // numbersCollection.sort();
 // console.log(numbersCollection.data);

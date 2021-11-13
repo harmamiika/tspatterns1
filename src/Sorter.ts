@@ -1,10 +1,10 @@
 import { NumbersCollection } from './NumbersCollection';
 
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightindex: number): void;
-}
+// interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightindex: number): void;
+// }
 
 // note this syntax - we never wanna create Sorter(linkedList)
 // we can

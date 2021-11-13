@@ -1,6 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
+// interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightindex: number): void;
+// }
 // note this syntax - we never wanna create Sorter(linkedList)
 // we can
 var Sorter = /** @class */ (function () {
